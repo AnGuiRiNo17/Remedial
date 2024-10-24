@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!-- Definición del tipo de documento HTML -->
+
+<html lang="en">
+<!-- Apertura del elemento HTML. El atributo "lang" define el idioma del contenido. -->
+
+<head>
+    <!-- Encabezado del documento, donde se colocan los metadatos y enlaces a recursos externos. -->
+
+    <meta charset="UTF-8">
+    <!-- Definición del conjunto de caracteres utilizados en el documento. UTF-8 es un estándar universal. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Metaetiqueta para configurar la escala del diseño para dispositivos móviles. Garantiza que la página sea responsiva. -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Enlace al archivo CSS de Bootstrap desde un CDN. Bootstrap es un framework CSS para diseño responsivo. -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Enlace a la hoja de estilos de Font Awesome desde un CDN. Proporciona iconos escalables. -->
+
+    <link rel="stylesheet" href="css/AboutMe.css">
+    <!-- Enlace a una hoja de estilos personalizada local, llamada "style.css", que probablemente contiene estilos específicos para esta página. -->
+
+    <title>Practica_frontend</title>
+    <!-- Título de la página web que aparecerá en la pestaña del navegador. -->
+
+</head>
+<!-- Cierre del encabezado del documento -->
+
+<!-- Sesión de Menú (Navbar) -->
+
+<body>
+    <!-- Inicio del cuerpo del documento, donde se coloca el contenido visible de la página. -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- Inicio de la barra de navegación (navbar) utilizando clases de Bootstrap para estilizarla como "oscura" y responsiva para dispositivos grandes. -->
+
+        <div class="container">
+            <!-- Contenedor que centraliza el contenido de la barra de navegación. -->
+
+            <a class="navbar-brand" href="#">
+                <!-- Enlace que representa la marca de la página, redirige a la página de inicio (enlace vacío "#"). -->
+                <i class="fa-solid fa-globe"></i>
+                <!-- Icono de globo terráqueo, proporcionado por Font Awesome, junto al texto de la marca. -->
+                AnGuiRiNo17
+                <!-- Nombre de la marca que aparecerá en la barra de navegación. -->
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- Botón para colapsar el menú en pantallas pequeñas. Usa clases de Bootstrap para su funcionalidad. -->
+                <span class="navbar-toggler-icon"></span>
+                <!-- Icono del botón de colapso (hamburguesa) de Bootstrap. -->
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Div que contiene los enlaces del menú y que será colapsable en dispositivos pequeños. -->
+
+                <ul class="navbar-nav ms-auto">
+                    <!-- Lista de elementos del menú, alineada a la derecha (ms-auto es una clase de Bootstrap para margen automático). -->
+
+                    <li class="nav-item">
+                        <!-- Primer elemento de la lista del menú. -->
+                        <a class="nav-link" href="index.html">
+                            <!-- Enlace a la sección de inicio. (Actualmente no redirige a ninguna parte, "#"). -->
+                            <i class="fa-solid fa-house"></i>
+                            <!-- Icono de casa de Font Awesome. -->
+                            Home
+                            <!-- Texto que aparece junto al icono. -->
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <!-- Segundo elemento de la lista del menú. -->
+                        <a class="nav-link" href="AboutMe.html">
+                            <!-- Enlace a la sección "Acerca De". -->
+                            <i class="fa-solid fa-circle-info"></i>
+                            <!-- Icono de información de Font Awesome. -->
+                            About me
+                            <!-- Texto del enlace. -->
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <!-- Tercer elemento del menú, para servicios. -->
+                        <a class="nav-link" href="MyHobbies.html">
+                            <!-- Enlace a la sección de servicios. -->
+                            <i class="fa-solid fa-gears"></i>
+                            <!-- Icono de engranajes de Font Awesome. -->
+                            My Hobbies
+                            <!-- Texto del enlace. -->
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            <i class="fa-solid fa-envelope"></i>
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+                <!-- Cierre de la lista de elementos del menú. -->
+            </div>
+            <!-- Cierre del contenedor colapsable del menú. -->
+        </div>
+        <!-- Cierre del contenedor de la barra de navegación. -->
+    </nav>
+    <!-- Cierre de la barra de navegación. -->
+
+        <div class="background">
+        <!-- Sección de la página que contiene el fondo y los artículos. Se utiliza la clase "background" para aplicar estilos de fondo. -->
+    
+        <!-- Contenido central -->
+    <div class="all">
+        <div class="text-container">
+            <h1>I'm Angel Rivera</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam dolorem ab harum dicta, hic eveniet? Quaerat, sunt, illum a excepturi dolore incidunt quia modi, architecto inventore at eligendi necessitatibus facilis?</p>
+        </div>
+
+        <div class="image-container">
+            <img src="IMG/img4.jpg" alt="about me imagen">
+        </div>
+
+        <div class="top-container">
+            <div class="big-card">
+                <h1><i class="fa-regular fa-address-card"></i> Information About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            </div>
+            <div class="big-card">
+                <h1><i class="fa-regular fa-square-check"></i> Information About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <div class="number">1</div>
+                <div class="description">
+                    <p>Spreen's videos</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="number">2</div>
+                <div class="description">
+                    <p>Listen to music</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="number">3</div>
+                <div class="description">
+                    <p>Razer's fan</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="number">4</div>
+                <div class="description">
+                    <p>Minecraft lover</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        </div>
+        <!-- Cierre del contenedor principal de la sección de fondo y artículos. -->
+    
+    </div>
+    <!-- Cierre del contenedor con la clase "background". -->
+    
+    <!-- Sesión de encabezado de página (footer) -->
+    
+    <footer class="footer mt-auto">
+        <!-- Inicio del pie de página (footer) con la clase "footer" para estilos y "mt-auto" para margen superior automático. -->
+    
+        <div class="container">
+            <!-- Contenedor de Bootstrap que centraliza el contenido. -->
+    
+            <div class="row">
+                <!-- Div para la distribución en filas dentro del contenedor. -->
+    
+                <div class="col-md-4 mb-md-0">
+                    <!-- Columna del footer que ocupa 4 columnas en pantallas medianas, sin margen inferior (mb-md-0). -->
+    
+                    <h5>About us</h5>
+                    <!-- Título de la primera sección del footer. -->
+    
+                    <p>We are a passionate community united by our love for music, gaming, and innovation. From uplifting church rhythms to exploring the realms of Minecraft, we embrace creativity in all its forms. As fans of Razer and Apple, we celebrate cutting-edge technology that enhances our experiences and connects us with friends. Join us on our journey of inspiration and fun!</p>
+                    <!-- Descripción personal. -->
+                </div>
+    
+                <div class="col-md-4 mb-md-0">
+                    <!-- Segunda columna del footer. -->
+    
+                    <h5>Fast links</h5>
+                    <!-- Título de la sección de enlaces rápidos. -->
+    
+                    <ul class="list-unstyled footer-links">
+                        <!-- Lista de enlaces sin estilo por defecto. -->
+    
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="AboutMe.html">About me</a></li>
+                        <li><a href="MyHobbies.html">My Hobbies</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <!-- Enlaces a las diferentes secciones del sitio. -->
+                    </ul>
+                </div>
+    
+                <div class="col-md-4">
+                    <!-- Tercera columna del footer. -->
+    
+                    <h5>Follow me</h5>
+                    <!-- Título de la sección de redes sociales. -->
+    
+                    <div class="social-icons">
+                        <!-- Contenedor para los íconos sociales. -->
+    
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <!-- Íconos de redes sociales proporcionados por Font Awesome. -->
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div class="copyright">
+            <!-- Sección que contiene los derechos de autor. -->
+    
+            <div class="container">
+                <!-- Contenedor de Bootstrap para centrar el contenido. -->
+    
+                <div class="row">
+                    <!-- Fila para distribuir el contenido. -->
+    
+                    <div class="col-md-12 text-center">
+                        <!-- Columna de 12 unidades que centra el texto. -->
+    
+                        <p>&copy; <span id="year"></span> Developed by Angel Rivera. TI31BIS DSM. All rights reserved.</p>
+                        <!-- Texto de derechos de autor con el año actualizado dinámicamente mediante JavaScript. -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+    <!-- Cierre del pie de página (footer). -->
+    
+    <script src="js/script.js"></script>
+    <!-- Enlace al archivo JavaScript personalizado (script.js). -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Enlace a la biblioteca JavaScript de Bootstrap para las funcionalidades dinámicas de la página. -->
+    
+</body>
+</html>
